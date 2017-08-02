@@ -1,4 +1,6 @@
 
+document.getElementById("date").innerHTML = Date();
+
 var myTasks = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myTasks.length; i++) {
